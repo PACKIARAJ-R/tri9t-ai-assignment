@@ -83,10 +83,10 @@ python compare_versions.py
 ```powershell
 python -m uvicorn api:app --reload
 ```
+## Live Demo
 
-Open the interactive API documentation at:
-
-http://127.0.0.1:8000/docs
+- Application: https://tri9t-ai-assignment.onrender.com
+- API Documentation: https://tri9t-ai-assignment.onrender.com/docs
 
 ## API Endpoints
 
