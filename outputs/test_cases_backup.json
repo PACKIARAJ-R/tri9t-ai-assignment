@@ -1,0 +1,334 @@
+{
+  "test_cases": [
+    {
+      "title": "Verify normal behavior for Overpressure Protection",
+      "description": "Check that the device follows the requirements described in section 4.1: If cuﬀ pressure exceeds 299 mmHg at any point, or exceeds 300 mmHg\nfor longer than 3 seconds due to sensor fault, the device immediately\ntriggers an emergency deﬂation valve, halting inﬂation and venting the\ncuﬀ within 2 seconds, independent of the main ﬁrmware control loop.",
+      "source_sections": [
+        "4.1"
+      ],
+      "source_hashes": {
+        "4.1": "7816070c47b5fb19816d5615887b58a86de9ec6ef31d2918e693a196dc03209a"
+      },
+      "test_id": "safety_tests_v1_20261021111713_1",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:13.251802+00:00",
+      "stale": false,
+      "stale_against_version": "v2",
+      "changed_source_sections": []
+    },
+    {
+      "title": "Verify boundary conditions for Overpressure Protection",
+      "description": "Test the stated limits and boundary conditions described in section 4.1: If cuﬀ pressure exceeds 299 mmHg at any point, or exceeds 300 mmHg\nfor longer than 3 seconds due to sensor fault, the device immediately\ntriggers an emergency deﬂation valve, halting inﬂation and venting the\ncuﬀ within 2 seconds, independent of the main ﬁrmware control loop.",
+      "source_sections": [
+        "4.1"
+      ],
+      "source_hashes": {
+        "4.1": "7816070c47b5fb19816d5615887b58a86de9ec6ef31d2918e693a196dc03209a"
+      },
+      "test_id": "safety_tests_v1_20261021111713_2",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:13.251802+00:00",
+      "stale": false,
+      "stale_against_version": "v2",
+      "changed_source_sections": []
+    },
+    {
+      "title": "Verify error handling for Overpressure Protection",
+      "description": "Check the device response to invalid, abnormal, or failure conditions described in section 4.1: If cuﬀ pressure exceeds 299 mmHg at any point, or exceeds 300 mmHg\nfor longer than 3 seconds due to sensor fault, the device immediately\ntriggers an emergency deﬂation valve, halting inﬂation and venting the\ncuﬀ within 2 seconds, independent of the main ﬁrmware control loop.",
+      "source_sections": [
+        "4.1"
+      ],
+      "source_hashes": {
+        "4.1": "7816070c47b5fb19816d5615887b58a86de9ec6ef31d2918e693a196dc03209a"
+      },
+      "test_id": "safety_tests_v1_20261021111713_3",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:13.251802+00:00",
+      "stale": false,
+      "stale_against_version": "v2",
+      "changed_source_sections": []
+    },
+    {
+      "title": "Verify normal behavior for Error Codes",
+      "description": "Check that the device follows the requirements described in section 4.2: Code\nMeaning\nDevice Behavior\nE1\nCuﬀ not connected or\nleak detected\nAborts measurement, displays E1\nE2\nMotion artifact detected\nduring measurement\nAborts measurement, displays\nE2, prompts retry\nE3\nOverpressure condition\nAuto-deﬂates within 2 seconds,\ndisplays E3\nE4\nLow battery during\nmeasurement\nAbor",
+      "source_sections": [
+        "4.2"
+      ],
+      "source_hashes": {
+        "4.2": "07260d42962e777e73be3f71640b47559c74fbdcc29e8564c78f328969a8c7ba"
+      },
+      "test_id": "safety_tests_v1_20261021111713_4",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:13.251802+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.2"
+      ]
+    },
+    {
+      "title": "Verify boundary conditions for Error Codes",
+      "description": "Test the stated limits and boundary conditions described in section 4.2: Code\nMeaning\nDevice Behavior\nE1\nCuﬀ not connected or\nleak detected\nAborts measurement, displays E1\nE2\nMotion artifact detected\nduring measurement\nAborts measurement, displays\nE2, prompts retry\nE3\nOverpressure condition\nAuto-deﬂates within 2 seconds,\ndisplays E3\nE4\nLow battery during\nmeasurement\nAbor",
+      "source_sections": [
+        "4.2"
+      ],
+      "source_hashes": {
+        "4.2": "07260d42962e777e73be3f71640b47559c74fbdcc29e8564c78f328969a8c7ba"
+      },
+      "test_id": "safety_tests_v1_20261021111713_5",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:13.251802+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.2"
+      ]
+    },
+    {
+      "title": "Verify error handling for Error Codes",
+      "description": "Check the device response to invalid, abnormal, or failure conditions described in section 4.2: Code\nMeaning\nDevice Behavior\nE1\nCuﬀ not connected or\nleak detected\nAborts measurement, displays E1\nE2\nMotion artifact detected\nduring measurement\nAborts measurement, displays\nE2, prompts retry\nE3\nOverpressure condition\nAuto-deﬂates within 2 seconds,\ndisplays E3\nE4\nLow battery during\nmeasurement\nAbor",
+      "source_sections": [
+        "4.2"
+      ],
+      "source_hashes": {
+        "4.2": "07260d42962e777e73be3f71640b47559c74fbdcc29e8564c78f328969a8c7ba"
+      },
+      "test_id": "safety_tests_v1_20261021111713_6",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:13.251802+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.2"
+      ]
+    },
+    {
+      "title": "Verify normal behavior for Alarm Thresholds",
+      "description": "Check that the device follows the requirements described in section 4.3: The device does not sound an audible alarm for elevated readings by\ndefault; audible alarms are limited to the E1–E5 error conditions above\nand are user‑conﬁgurable in the settings menu, except for E3\n(overpressure), which cannot be silenced for safety reasons.",
+      "source_sections": [
+        "4.3"
+      ],
+      "source_hashes": {
+        "4.3": "bda470913fee0954821fec55e9bd54ea0d7d483cdc5c335c70ec537210cd7522"
+      },
+      "test_id": "safety_tests_v1_20261021111713_7",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:13.251802+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.3"
+      ]
+    },
+    {
+      "title": "Verify boundary conditions for Alarm Thresholds",
+      "description": "Test the stated limits and boundary conditions described in section 4.3: The device does not sound an audible alarm for elevated readings by\ndefault; audible alarms are limited to the E1–E5 error conditions above\nand are user‑conﬁgurable in the settings menu, except for E3\n(overpressure), which cannot be silenced for safety reasons.",
+      "source_sections": [
+        "4.3"
+      ],
+      "source_hashes": {
+        "4.3": "bda470913fee0954821fec55e9bd54ea0d7d483cdc5c335c70ec537210cd7522"
+      },
+      "test_id": "safety_tests_v1_20261021111713_8",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:13.251802+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.3"
+      ]
+    },
+    {
+      "title": "Verify error handling for Alarm Thresholds",
+      "description": "Check the device response to invalid, abnormal, or failure conditions described in section 4.3: The device does not sound an audible alarm for elevated readings by\ndefault; audible alarms are limited to the E1–E5 error conditions above\nand are user‑conﬁgurable in the settings menu, except for E3\n(overpressure), which cannot be silenced for safety reasons.",
+      "source_sections": [
+        "4.3"
+      ],
+      "source_hashes": {
+        "4.3": "bda470913fee0954821fec55e9bd54ea0d7d483cdc5c335c70ec537210cd7522"
+      },
+      "test_id": "safety_tests_v1_20261021111713_9",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:13.251802+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.3"
+      ]
+    },
+    {
+      "title": "Verify normal behavior for Overpressure Protection",
+      "description": "Check that the device follows the requirements described in section 4.1: If cuﬀ pressure exceeds 299 mmHg at any point, or exceeds 300 mmHg\nfor longer than 3 seconds due to sensor fault, the device immediately\ntriggers an emergency deﬂation valve, halting inﬂation and venting the\ncuﬀ within 2 seconds, independent of the main ﬁrmware control loop.",
+      "source_sections": [
+        "4.1"
+      ],
+      "source_hashes": {
+        "4.1": "7816070c47b5fb19816d5615887b58a86de9ec6ef31d2918e693a196dc03209a"
+      },
+      "test_id": "safety_tests_v1_20261021111715_1",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:15.425179+00:00",
+      "stale": false,
+      "stale_against_version": "v2",
+      "changed_source_sections": []
+    },
+    {
+      "title": "Verify boundary conditions for Overpressure Protection",
+      "description": "Test the stated limits and boundary conditions described in section 4.1: If cuﬀ pressure exceeds 299 mmHg at any point, or exceeds 300 mmHg\nfor longer than 3 seconds due to sensor fault, the device immediately\ntriggers an emergency deﬂation valve, halting inﬂation and venting the\ncuﬀ within 2 seconds, independent of the main ﬁrmware control loop.",
+      "source_sections": [
+        "4.1"
+      ],
+      "source_hashes": {
+        "4.1": "7816070c47b5fb19816d5615887b58a86de9ec6ef31d2918e693a196dc03209a"
+      },
+      "test_id": "safety_tests_v1_20261021111715_2",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:15.425179+00:00",
+      "stale": false,
+      "stale_against_version": "v2",
+      "changed_source_sections": []
+    },
+    {
+      "title": "Verify error handling for Overpressure Protection",
+      "description": "Check the device response to invalid, abnormal, or failure conditions described in section 4.1: If cuﬀ pressure exceeds 299 mmHg at any point, or exceeds 300 mmHg\nfor longer than 3 seconds due to sensor fault, the device immediately\ntriggers an emergency deﬂation valve, halting inﬂation and venting the\ncuﬀ within 2 seconds, independent of the main ﬁrmware control loop.",
+      "source_sections": [
+        "4.1"
+      ],
+      "source_hashes": {
+        "4.1": "7816070c47b5fb19816d5615887b58a86de9ec6ef31d2918e693a196dc03209a"
+      },
+      "test_id": "safety_tests_v1_20261021111715_3",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:15.425179+00:00",
+      "stale": false,
+      "stale_against_version": "v2",
+      "changed_source_sections": []
+    },
+    {
+      "title": "Verify normal behavior for Error Codes",
+      "description": "Check that the device follows the requirements described in section 4.2: Code\nMeaning\nDevice Behavior\nE1\nCuﬀ not connected or\nleak detected\nAborts measurement, displays E1\nE2\nMotion artifact detected\nduring measurement\nAborts measurement, displays\nE2, prompts retry\nE3\nOverpressure condition\nAuto-deﬂates within 2 seconds,\ndisplays E3\nE4\nLow battery during\nmeasurement\nAbor",
+      "source_sections": [
+        "4.2"
+      ],
+      "source_hashes": {
+        "4.2": "07260d42962e777e73be3f71640b47559c74fbdcc29e8564c78f328969a8c7ba"
+      },
+      "test_id": "safety_tests_v1_20261021111715_4",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:15.425179+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.2"
+      ]
+    },
+    {
+      "title": "Verify boundary conditions for Error Codes",
+      "description": "Test the stated limits and boundary conditions described in section 4.2: Code\nMeaning\nDevice Behavior\nE1\nCuﬀ not connected or\nleak detected\nAborts measurement, displays E1\nE2\nMotion artifact detected\nduring measurement\nAborts measurement, displays\nE2, prompts retry\nE3\nOverpressure condition\nAuto-deﬂates within 2 seconds,\ndisplays E3\nE4\nLow battery during\nmeasurement\nAbor",
+      "source_sections": [
+        "4.2"
+      ],
+      "source_hashes": {
+        "4.2": "07260d42962e777e73be3f71640b47559c74fbdcc29e8564c78f328969a8c7ba"
+      },
+      "test_id": "safety_tests_v1_20261021111715_5",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:15.425179+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.2"
+      ]
+    },
+    {
+      "title": "Verify error handling for Error Codes",
+      "description": "Check the device response to invalid, abnormal, or failure conditions described in section 4.2: Code\nMeaning\nDevice Behavior\nE1\nCuﬀ not connected or\nleak detected\nAborts measurement, displays E1\nE2\nMotion artifact detected\nduring measurement\nAborts measurement, displays\nE2, prompts retry\nE3\nOverpressure condition\nAuto-deﬂates within 2 seconds,\ndisplays E3\nE4\nLow battery during\nmeasurement\nAbor",
+      "source_sections": [
+        "4.2"
+      ],
+      "source_hashes": {
+        "4.2": "07260d42962e777e73be3f71640b47559c74fbdcc29e8564c78f328969a8c7ba"
+      },
+      "test_id": "safety_tests_v1_20261021111715_6",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:15.425179+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.2"
+      ]
+    },
+    {
+      "title": "Verify normal behavior for Alarm Thresholds",
+      "description": "Check that the device follows the requirements described in section 4.3: The device does not sound an audible alarm for elevated readings by\ndefault; audible alarms are limited to the E1–E5 error conditions above\nand are user‑conﬁgurable in the settings menu, except for E3\n(overpressure), which cannot be silenced for safety reasons.",
+      "source_sections": [
+        "4.3"
+      ],
+      "source_hashes": {
+        "4.3": "bda470913fee0954821fec55e9bd54ea0d7d483cdc5c335c70ec537210cd7522"
+      },
+      "test_id": "safety_tests_v1_20261021111715_7",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:15.425179+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.3"
+      ]
+    },
+    {
+      "title": "Verify boundary conditions for Alarm Thresholds",
+      "description": "Test the stated limits and boundary conditions described in section 4.3: The device does not sound an audible alarm for elevated readings by\ndefault; audible alarms are limited to the E1–E5 error conditions above\nand are user‑conﬁgurable in the settings menu, except for E3\n(overpressure), which cannot be silenced for safety reasons.",
+      "source_sections": [
+        "4.3"
+      ],
+      "source_hashes": {
+        "4.3": "bda470913fee0954821fec55e9bd54ea0d7d483cdc5c335c70ec537210cd7522"
+      },
+      "test_id": "safety_tests_v1_20261021111715_8",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:15.425179+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.3"
+      ]
+    },
+    {
+      "title": "Verify error handling for Alarm Thresholds",
+      "description": "Check the device response to invalid, abnormal, or failure conditions described in section 4.3: The device does not sound an audible alarm for elevated readings by\ndefault; audible alarms are limited to the E1–E5 error conditions above\nand are user‑conﬁgurable in the settings menu, except for E3\n(overpressure), which cannot be silenced for safety reasons.",
+      "source_sections": [
+        "4.3"
+      ],
+      "source_hashes": {
+        "4.3": "bda470913fee0954821fec55e9bd54ea0d7d483cdc5c335c70ec537210cd7522"
+      },
+      "test_id": "safety_tests_v1_20261021111715_9",
+      "selection_id": "safety_tests_v1",
+      "version": "v1",
+      "created_at": "2026-10-21T11:17:15.425179+00:00",
+      "stale": true,
+      "stale_against_version": "v2",
+      "changed_source_sections": [
+        "4.3"
+      ]
+    }
+  ]
+}

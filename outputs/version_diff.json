@@ -1,0 +1,226 @@
+[
+  {
+    "section_number": "1",
+    "heading_v1": "Device Overview",
+    "heading_v2": "Device Overview",
+    "status": "unchanged",
+    "hash_v1": "05e58076887797c13c2a926eaf017524fa1aa03a1f5f009cb97d821a11d8310a",
+    "hash_v2": "05e58076887797c13c2a926eaf017524fa1aa03a1f5f009cb97d821a11d8310a"
+  },
+  {
+    "section_number": "1.1",
+    "heading_v1": "Intended Use",
+    "heading_v2": "Intended Use",
+    "status": "unchanged",
+    "hash_v1": "c32391316d1f147629edbf05bd05e72c8eefae7173f9074db5e862ce561e326a",
+    "hash_v2": "c32391316d1f147629edbf05bd05e72c8eefae7173f9074db5e862ce561e326a"
+  },
+  {
+    "section_number": "1.2",
+    "heading_v1": "Indications and Contraindications",
+    "heading_v2": "Indications and Contraindications",
+    "status": "unchanged",
+    "hash_v1": "013810f5d3113713b3d61cbcad9548e3f4929291f8db85cd273a58d813483c6e",
+    "hash_v2": "013810f5d3113713b3d61cbcad9548e3f4929291f8db85cd273a58d813483c6e"
+  },
+  {
+    "section_number": "2",
+    "heading_v1": "Physical and Electrical Speciﬁcations",
+    "heading_v2": "Physical and Electrical Speciﬁcations",
+    "status": "unchanged",
+    "hash_v1": "2d4604dd06da37f884cd26ce36ecfdb4e601f7c4aeaab29a110fca8590b87020",
+    "hash_v2": "2d4604dd06da37f884cd26ce36ecfdb4e601f7c4aeaab29a110fca8590b87020"
+  },
+  {
+    "section_number": "2.1",
+    "heading_v1": "General Speciﬁcations",
+    "heading_v2": "General Speciﬁcations",
+    "status": "unchanged",
+    "hash_v1": "afec952db40ae26f302416888ba7efc58b055a52fdf6979e77d30de9708bcec7",
+    "hash_v2": "afec952db40ae26f302416888ba7efc58b055a52fdf6979e77d30de9708bcec7"
+  },
+  {
+    "section_number": "2.1.1.1",
+    "heading_v1": "Battery Life Under Typical Use",
+    "heading_v2": "Battery Life Under Typical Use",
+    "status": "changed",
+    "hash_v1": "64632c55ddad71c10b5f24f826667df555b669b9ecceb4fa1bd33dfcb046274e",
+    "hash_v2": "db2b091877f00fed744e43081d963533401972970e357658a14e84c15aacd24c"
+  },
+  {
+    "section_number": "2.2",
+    "heading_v1": "Cuﬀ Speciﬁcations",
+    "heading_v2": "Cuﬀ Speciﬁcations",
+    "status": "unchanged",
+    "hash_v1": "5ff492187b9e55f8db70d48ee55cdab472b8714ec543238e9f011a43612ffb8c",
+    "hash_v2": "5ff492187b9e55f8db70d48ee55cdab472b8714ec543238e9f011a43612ffb8c"
+  },
+  {
+    "section_number": "3",
+    "heading_v1": "Device Operation",
+    "heading_v2": "Device Operation",
+    "status": "unchanged",
+    "hash_v1": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hash_v2": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "section_number": "3.1",
+    "heading_v1": "Powering On and Proﬁle Selection",
+    "heading_v2": "Powering On and Proﬁle Selection",
+    "status": "unchanged",
+    "hash_v1": "696a5f050930d419ba7aab7307945c2d0b611b728c1d1fbab2c7b671891f6020",
+    "hash_v2": "696a5f050930d419ba7aab7307945c2d0b611b728c1d1fbab2c7b671891f6020"
+  },
+  {
+    "section_number": "3.2",
+    "heading_v1": "Cuﬀ Inﬂation Sequence",
+    "heading_v2": "Cuﬀ Inﬂation Sequence",
+    "status": "changed",
+    "hash_v1": "0f02d0a106865e22056feb712e37006b97222776146653b81b4cde917ae4d1b8",
+    "hash_v2": "a608231059d28d3e344a0c8e840ff3640b2203e5be574799670349eccc2c7b69"
+  },
+  {
+    "section_number": "3.3",
+    "heading_v1": "Result Display and Classiﬁcation",
+    "heading_v2": "Result Display and Classiﬁcation",
+    "status": "unchanged",
+    "hash_v1": "b13423679db12c49363edccf81ea34ad5013cc76d4fee8bdcd68aa63029c48e7",
+    "hash_v2": "b13423679db12c49363edccf81ea34ad5013cc76d4fee8bdcd68aa63029c48e7"
+  },
+  {
+    "section_number": "3.4",
+    "heading_v1": "Auto Shutoﬀ",
+    "heading_v2": "Auto Shutoﬀ",
+    "status": "unchanged",
+    "hash_v1": "af1a67bda8866190c9d7803d234fee6c5e65973464956d0daa2ed0a06cafe215",
+    "hash_v2": "af1a67bda8866190c9d7803d234fee6c5e65973464956d0daa2ed0a06cafe215"
+  },
+  {
+    "section_number": "4",
+    "heading_v1": "Alarms and Safety Behavior",
+    "heading_v2": "Alarms and Safety Behavior",
+    "status": "unchanged",
+    "hash_v1": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hash_v2": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "section_number": "4.1",
+    "heading_v1": "Overpressure Protection",
+    "heading_v2": "Overpressure Protection",
+    "status": "unchanged",
+    "hash_v1": "7816070c47b5fb19816d5615887b58a86de9ec6ef31d2918e693a196dc03209a",
+    "hash_v2": "7816070c47b5fb19816d5615887b58a86de9ec6ef31d2918e693a196dc03209a"
+  },
+  {
+    "section_number": "4.2",
+    "heading_v1": "Error Codes",
+    "heading_v2": "Error Codes",
+    "status": "changed",
+    "hash_v1": "07260d42962e777e73be3f71640b47559c74fbdcc29e8564c78f328969a8c7ba",
+    "hash_v2": "28e3970b8346b78d220ee6c1002eb07597a9456314e264e826b8d9040fea27fd"
+  },
+  {
+    "section_number": "4.3",
+    "heading_v1": "Alarm Thresholds",
+    "heading_v2": "Alarm Thresholds",
+    "status": "changed",
+    "hash_v1": "bda470913fee0954821fec55e9bd54ea0d7d483cdc5c335c70ec537210cd7522",
+    "hash_v2": "b22bb4424d1d9d30aee4e0a025c6e899bf18f9328f128e13d8932c649d75abc8"
+  },
+  {
+    "section_number": "5",
+    "heading_v1": "Data Management",
+    "heading_v2": "Data Management",
+    "status": "unchanged",
+    "hash_v1": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hash_v2": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "section_number": "5.1",
+    "heading_v1": "Local Storage",
+    "heading_v2": "Local Storage",
+    "status": "unchanged",
+    "hash_v1": "7af57cc37bbc80164c3e6c5ff5a1e94a2ce2501871c20dab994724565d59cb93",
+    "hash_v2": "7af57cc37bbc80164c3e6c5ff5a1e94a2ce2501871c20dab994724565d59cb93"
+  },
+  {
+    "section_number": "5.2",
+    "heading_v1": "Bluetooth Sync",
+    "heading_v2": "Bluetooth Sync",
+    "status": "unchanged",
+    "hash_v1": "4b13f20739c9340b40e7e2e7ef72c4f865eb5104cb03fa2f897142f7f255f9c4",
+    "hash_v2": "4b13f20739c9340b40e7e2e7ef72c4f865eb5104cb03fa2f897142f7f255f9c4"
+  },
+  {
+    "section_number": "5.3",
+    "heading_v1": null,
+    "heading_v2": "Data Export",
+    "status": "added",
+    "hash_v1": null,
+    "hash_v2": "dbc6d64420e885941372ab32ccc6989d7fd2db93acdc2e94c44a2f7b0396b40f"
+  },
+  {
+    "section_number": "6",
+    "heading_v1": "Maintenance and Cleaning",
+    "heading_v2": "Maintenance and Cleaning",
+    "status": "unchanged",
+    "hash_v1": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hash_v2": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "section_number": "6.1",
+    "heading_v1": "Cleaning Instructions",
+    "heading_v2": "Cleaning Instructions",
+    "status": "unchanged",
+    "hash_v1": "26a8d59ae937e7024b996e4946c8dee3475ce9dc265197fd1cdafb0d6e56c67c",
+    "hash_v2": "26a8d59ae937e7024b996e4946c8dee3475ce9dc265197fd1cdafb0d6e56c67c"
+  },
+  {
+    "section_number": "6.2",
+    "heading_v1": "Calibration",
+    "heading_v2": "Calibration",
+    "status": "unchanged",
+    "hash_v1": "d0b3cadc06b3095f5dd3a78f37e1e7059682fd12761083f936af1a52e13bd06a",
+    "hash_v2": "d0b3cadc06b3095f5dd3a78f37e1e7059682fd12761083f936af1a52e13bd06a"
+  },
+  {
+    "section_number": "7",
+    "heading_v1": "Troubleshooting",
+    "heading_v2": "Troubleshooting",
+    "status": "unchanged",
+    "hash_v1": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hash_v2": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "section_number": "7.1",
+    "heading_v1": "Error Codes",
+    "heading_v2": "Error Codes",
+    "status": "unchanged",
+    "hash_v1": "60fdfe97715aa97430bcc1ea86369976c559efbacae57dfadde03dfa74e2832c",
+    "hash_v2": "60fdfe97715aa97430bcc1ea86369976c559efbacae57dfadde03dfa74e2832c"
+  },
+  {
+    "section_number": "7.2",
+    "heading_v1": "Inconsistent Readings",
+    "heading_v2": "Inconsistent Readings",
+    "status": "unchanged",
+    "hash_v1": "78bbaca5cf7651ebe41316e71ec582ecb95c01a9d3621a466a4d1f4d05f8472b",
+    "hash_v2": "78bbaca5cf7651ebe41316e71ec582ecb95c01a9d3621a466a4d1f4d05f8472b"
+  },
+  {
+    "section_number": "8",
+    "heading_v1": "Regulatory Information",
+    "heading_v2": "Regulatory Information",
+    "status": "unchanged",
+    "hash_v1": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hash_v2": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "section_number": "8.1",
+    "heading_v1": "Classiﬁcation",
+    "heading_v2": "Classiﬁcation",
+    "status": "unchanged",
+    "hash_v1": "430265eb3c24116cc0dbfc653c6773a840b636a1ff3be6caa7fdf605113d39b3",
+    "hash_v2": "430265eb3c24116cc0dbfc653c6773a840b636a1ff3be6caa7fdf605113d39b3"
+  }
+]
